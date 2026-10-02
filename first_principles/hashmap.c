@@ -120,6 +120,7 @@ int resize(Map*m){
             head = temp;
         }
     }
+    free(prev_arr);
     return 0;
 }
 
